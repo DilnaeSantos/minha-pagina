@@ -1,0 +1,97 @@
+@media (max-width: 790px) {
+   header {
+        width: 110%;
+        height: 35em;
+        position: relative;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+   }
+
+   main {
+        width: 110%;
+   }
+
+   footer {
+     width: 110%;
+   }
+
+   .navegacao {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 40px;
+   }
+
+   .a {
+        width: 200px;
+        height: 60px;
+        font-size: 16px;
+        text-align: center;
+   }
+
+   .minha-foto {
+        height: 120px;
+        width: 120px;
+   }
+
+   /* diminuindo o relogio */
+   .relogio {
+        width: 80%;
+        
+   }
+
+   .relogio div {
+        width: 30%;
+        height: 60%;
+   }
+
+   .relogio div span {
+        font-size: 30px;
+   }
+
+   .relogio span.tempo {
+        font-size: 12px;
+    } 
+
+    .div-sobre-mim, .habilidades-hobbies-div {
+        width: 65%;   
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .h1-sobre-mim, .habilidades-hobbies-ul, .habilidades-hobbies-h1,
+    .redes-sociais-h1, .entre-em-contado-h1, .entre-em-contado-form, .botao {
+        margin-left: 0;
+        
+    }
+
+    .habilidades-hobbies-ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+    }
+
+    .redes-sociais-div, .entre-em-contado-div {
+          width: 67%;   
+          height: 77%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+     }
+
+    .h1-sobre-mim {
+        margin-left: 0;
+    }
+
+    .p-sobre-mim {
+       font-size: 120%;
+    }
+
+}
