@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style/reogio.css" />
     <link rel="stylesheet" href="./style/scrollbar.css" />
     <link rel="stylesheet" href="./style/responsividade-790px.css">
-    <link rel="stylesheet" href="./style/responsividade-400px.css">
+    <link rel="stylesheet" href="./style/responsividade-446px.css">
     <title>Olá eu sou o dilnae</title>
 </head>
 
@@ -104,17 +104,22 @@
         <section class="entre-em-contado" id="entre-em-contado">
             <div class="entre-em-contado-div">
                 <h1 class="entre-em-contado-h1">Entre em contado</h1>
-                <form action="" class="entre-em-contado-form">
-                    <label for="">digite o seu nome</label>
-                    <input type="text" name="nome" placeholder="Nome">
+                <form action="https://formsubmit.co/dilnaerennan84@gmail.com" method="POST" class="entre-em-contado-form">
+                    <label for="nome">digite o seu nome</label>
+                    <input type="text" name="nome" placeholder="Nome" required>
 
-                    <label for="">digite o seu Email</label>
-                    <input type="email" name="email" placeholder="Email">
+                    <label for="email">digite o seu Email</label>
+                    <input type="email" name="email" placeholder="Email" required>
 
-                    <label for="">digite o seu telefone</label>
+                    <label for="telefone">digite o seu telefone</label>
                     <input type="tel" name="telefone" pattern="\d{5}\-\d{4}\" placeholder="Telefone">
+
+                    <button type="submit" class="botao">ENVIAR</button>
+
+                    <input type="hidden" name="_subject" value="Novo Contato da minha pagina">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="true">
                 </form>
-                <button class="botao">ENVIAR</button>
             </div>
         </section>
     </main>
