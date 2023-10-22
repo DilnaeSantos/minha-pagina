@@ -165,7 +165,7 @@ section ul li {
 }
 
 .entre-em-contado-h1 {
-    margin-left: 200px;
+    margin-left: 175px;
     margin-bottom: 20px;
     margin-top: 5px;
     color: white;
@@ -173,8 +173,12 @@ section ul li {
 }
 
 .entre-em-contado-form {
-    margin-left: 30%;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 label, input {
@@ -200,7 +204,6 @@ input::placeholder {
 
 .botao {
     color: white;
-    margin-left: 45%;
     font-size: 20px;
     border-radius: 15px;
     padding: 8px;
